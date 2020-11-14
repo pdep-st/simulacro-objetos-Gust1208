@@ -1,10 +1,18 @@
 class Reiley {
+	var	emosionDominante
+	var felicidad = 1000
+	const eventos = []
+	const pensaminetosCentrales = []
 
-	var felicidad
-	const evento = #{}
+	method vivirUnEvento(descripcion) {
+		eventos.add(new Emociones(
+		fecha = new fecha Date(),
+				descripcion = descripcion,
+				emosion = emosionDominate
+	))
 
-	method vivirUnEvento() {
-	}
+}
+
 
 	method acentarRecuedo() {
 	}
@@ -13,27 +21,36 @@ class Reiley {
 
 class Emociones {
 
-	var property vivirUnEvento
+	const fecha
+	const descripcion
+	const emosion
+	const persona
+		
+	method asentar(persona){
+		emosion.asentar(persona, self)
+	}
+}
+
+
+object alegria {
+	method asentar()
+}
+
+object tristeza  {
+	method asentar()
 
 }
 
-object alegria inherits Emociones(vivirUnEvento) {
+object disgusto {
+	method asentar()
 
 }
 
-object tristeza inherits Emociones(vivirUnEvento) {
-
+object furia  {
+	method asentar()
 }
 
-object disgusto inherits Emociones(vivirUnEvento) {
-
-}
-
-object furia inherits Emociones(vivirUnEvento) {
-
-}
-
-object temor inherits Emociones(vivirUnEvento) {
-
+object temor  {
+	method asentar()
 }
 
