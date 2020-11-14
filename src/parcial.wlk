@@ -3,11 +3,7 @@ class Reiley {
 	var felicidad
 	const evento = #{}
 
-	method dominarLaMente() {
-	 return evento.sum({ emocion => emocion.dominarLaMente() }) * felicidad
-	}
-
-	method vivirRecuerdo() {
+	method vivirUnEvento() {
 	}
 
 	method acentarRecuedo() {
@@ -17,27 +13,27 @@ class Reiley {
 
 class Emociones {
 
-	var property dominarLaMente
+	var property vivirUnEvento
 
 }
 
-object alegria inherits Emociones(dominarLaMente = 500) {
+object alegria inherits Emociones(vivirUnEvento) {
 
 }
 
-object tristeza inherits Emociones(dominarLaMente) {
+object tristeza inherits Emociones(vivirUnEvento) {
 
 }
 
-object disgusto inherits Emociones(dominarLaMente) {
+object disgusto inherits Emociones(vivirUnEvento) {
 
 }
 
-object furia inherits Emociones(dominarLaMente) {
+object furia inherits Emociones(vivirUnEvento) {
 
 }
 
-object temor inherits Emociones(dominarLaMente) {
+object temor inherits Emociones(vivirUnEvento) {
 
 }
 
